@@ -156,9 +156,9 @@ A comprehensive web presence built on Zo Computer infrastructure.
 Available for AI infrastructure projects, agent development, and platform building.
 
 - **Email:** thebookmasterofficial@gmail.com
-- **X/Twitter:** [@TBookmaste4140](https://x.com/TBookmaste4140)
+- **X/Twitter:** [@Retsumdk](https://x.com/Retsumdk)
 - **GitHub:** [Retsumdk](https://github.com/Retsumdk)
 
 ---
 
-*Built with ❤️ on Zo Computer*
+*Built with ❤️*
