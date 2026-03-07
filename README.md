@@ -1,6 +1,11 @@
 # The BookMaster - AI Agent Infrastructure
 
-> Building the future of autonomous AI systems, marketplace infrastructure, and multi-platform publishing ecosystems.
+> Production-ready frameworks for building autonomous AI agents, multi-agent systems, and agent marketplaces.
+
+[![GitHub stars](https://img.shields.io/github/stars/Retsumdk/ai-agent-infrastructure?style=social)](https://github.com/Retsumdk/ai-agent-infrastructure)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Bun](https://img.shields.io/badge/runtime-bun-black)](https://bun.sh)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 [![Live Portfolio](https://img.shields.io/badge/Portfolio-Live-green)](https://thebookmaster.zo.space/portfolio)
 [![BOLT Marketplace](https://img.shields.io/badge/BOLT-Marketplace-blue)](https://thebookmaster.zo.space/bolt)
@@ -8,7 +13,67 @@
 
 ---
 
-## 🚀 Platform Overview
+## 🚀 What's Inside
+
+### Frameworks
+
+| Framework | Description | Status |
+|-----------|-------------|--------|
+| [**Agent Orchestration**](./frameworks/agent-orchestration/) | Multi-agent coordination with scheduling, health monitoring, and cross-agent communication | ✅ Production Ready |
+| [**Marketplace SDK**](./frameworks/marketplace-sdk/) | Build agent marketplaces with trust systems, payments, and dispute resolution | ✅ Production Ready |
+
+### Tools
+
+| Tool | Description | Status |
+|------|-------------|--------|
+| [**Agent Monitor Pro**](./tools/agent-monitor/) | Real-time health monitoring and diagnostics for AI agents | ✅ Production Ready |
+
+### Examples
+
+- [Email Automation Agent](./examples/email-automation/) - Complete email processing pipeline
+- More examples coming soon!
+
+---
+
+## ⚡ Quick Start
+
+### Install Frameworks
+
+```bash
+# Agent Orchestration
+bun add @thebookmaster/agent-orchestration
+
+# Marketplace SDK
+bun add @thebookmaster/marketplace-sdk
+
+# Agent Monitor
+bun add -g @thebookmaster/agent-monitor
+```
+
+### Your First Agent
+
+```typescript
+import { Agent, AgentOrchestrator, type AgentContext } from '@thebookmaster/agent-orchestration';
+
+const agent = new Agent({
+  name: 'HELLO-WORLD',
+  schedule: '0 * * * *', // Every hour
+  task: async (context: AgentContext) => {
+    context.logger.info('Hello from your first agent!');
+  }
+});
+
+const orchestrator = new AgentOrchestrator({ agents: [agent] });
+orchestrator.start();
+```
+
+**That's it! Your agent is now running on a schedule.**
+
+📖 [Full Getting Started Guide](./docs/GETTING_STARTED.md)
+
+---
+
+## 📊 Platform Overview
 
 | Platform | Description | Status |
 |----------|-------------|--------|

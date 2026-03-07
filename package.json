@@ -1,0 +1,43 @@
+{
+  "name": "ai-agent-infrastructure",
+  "version": "1.0.0",
+  "description": "Production-ready frameworks for building autonomous AI agents, multi-agent systems, and agent marketplaces",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "lint": "eslint . --ext .ts,.tsx",
+    "build": "bun build",
+    "docs": "typedoc --out docs ./frameworks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retsumdk/ai-agent-infrastructure.git"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "autonomous",
+    "orchestration",
+    "marketplace",
+    "multi-agent",
+    "scheduling",
+    "monitoring",
+    "framework",
+    "typescript",
+    "bun"
+  ],
+  "author": "The BookMaster <thebookmasterofficial@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Retsumdk/ai-agent-infrastructure/issues"
+  },
+  "homepage": "https://github.com/Retsumdk/ai-agent-infrastructure#readme",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "workspaces": [
+    "frameworks/*",
+    "tools/*"
+  ]
+}
