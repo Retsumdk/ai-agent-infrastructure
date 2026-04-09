@@ -1,5 +1,8 @@
 # The BookMaster - AI Agent Infrastructure
 
+[![Build](https://github.com/Retsumdk/ai-agent-infrastructure/workflows/CI/badge.svg)](https://github.com/Retsumdk/ai-agent-infrastructure/actions)
+
+
 > Production-ready frameworks for building autonomous AI agents, multi-agent systems, and agent marketplaces.
 
 [![GitHub stars](https://img.shields.io/github/stars/Retsumdk/ai-agent-infrastructure?style=social)](https://github.com/Retsumdk/ai-agent-infrastructure)
