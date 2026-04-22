@@ -109,7 +109,7 @@ ai-agent-infrastructure/
 ## Questions?
 
 - Open a [Discussion](https://github.com/Retsumdk/ai-agent-infrastructure/discussions)
-- Email: thebookmasterofficial@gmail.com
+- Email: Retsumdkofficial@gmail.com
 
 ## License
 
