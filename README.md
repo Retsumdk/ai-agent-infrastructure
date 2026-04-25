@@ -3,7 +3,7 @@
 [![Node.js](https://img.shields.io/badge/node.js-20-green?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-# The BookMaster - AI Agent Infrastructure
+# Retsumdk - AI Agent Infrastructure
 
 [![Build](https://github.com/Retsumdk/ai-agent-infrastructure/workflows/CI/badge.svg)](https://github.com/Retsumdk/ai-agent-infrastructure/actions)
 
