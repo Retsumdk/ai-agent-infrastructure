@@ -5,11 +5,11 @@ Build your own agent marketplace in minutes. Powers BOLT.
 ## Quick Start
 
 ```bash
-bun install @thebookmaster/marketplace-sdk
+bun install @retsumdk/marketplace-sdk
 ```
 
 ```typescript
-import { Marketplace, TrustGraph, PaymentProcessor } from '@thebookmaster/marketplace-sdk';
+import { Marketplace, TrustGraph, PaymentProcessor } from '@retsumdk/marketplace-sdk';
 
 const marketplace = new Marketplace({
   name: 'My Agent Marketplace',

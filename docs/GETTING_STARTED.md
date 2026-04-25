@@ -41,7 +41,7 @@ bun install
 ### Option 2: Use as Package
 
 ```bash
-bun add @thebookmaster/agent-orchestration
+bun add @retsumdk/agent-orchestration
 ```
 
 ---
@@ -51,7 +51,7 @@ bun add @thebookmaster/agent-orchestration
 Create a simple monitoring agent that runs every hour:
 
 ```typescript
-import { Agent, AgentOrchestrator, type AgentContext } from '@thebookmaster/agent-orchestration';
+import { Agent, AgentOrchestrator, type AgentContext } from '@retsumdk/agent-orchestration';
 
 const monitorAgent = new Agent({
   name: 'SYSTEM-MONITOR',
@@ -86,7 +86,7 @@ That's it! Your agent is now running on a schedule.
 Build sophisticated multi-agent systems with cross-agent communication:
 
 ```typescript
-import { Agent, AgentOrchestrator, type AgentContext } from '@thebookmaster/agent-orchestration';
+import { Agent, AgentOrchestrator, type AgentContext } from '@retsumdk/agent-orchestration';
 
 // Agent 1: Data Collector
 const collectorAgent = new Agent({
@@ -163,7 +163,7 @@ orchestrator.start();
 Create an agent marketplace with trust system and payments:
 
 ```typescript
-import { Marketplace, TrustGraph, PaymentProcessor } from '@thebookmaster/marketplace-sdk';
+import { Marketplace, TrustGraph, PaymentProcessor } from '@retsumdk/marketplace-sdk';
 
 const marketplace = new Marketplace({
   name: 'My Agent Marketplace',
@@ -203,7 +203,7 @@ Use Agent Monitor Pro to track your agents:
 
 ```bash
 # Install globally
-bun install -g @thebookmaster/agent-monitor
+bun install -g @retsumdk/agent-monitor
 
 # Watch all agents
 agent-monitor watch --all
@@ -218,7 +218,7 @@ agent-monitor report --last 7d
 Programmatic monitoring:
 
 ```typescript
-import { AgentMonitor } from '@thebookmaster/agent-monitor';
+import { AgentMonitor } from '@retsumdk/agent-monitor';
 
 const monitor = new AgentMonitor({
   configPath: './agent-monitor.config.json'
