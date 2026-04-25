@@ -5,7 +5,7 @@ Real-time health monitoring and diagnostics for AI agents.
 ## Installation
 
 ```bash
-bun install -g @retsumdk/agent-monitor
+bun install -g @thebookmaster/agent-monitor
 ```
 
 ## Usage
@@ -93,7 +93,7 @@ Create `agent-monitor.config.json`:
 ## API
 
 ```typescript
-import { AgentMonitor } from '@retsumdk/agent-monitor';
+import { AgentMonitor } from '@thebookmaster/agent-monitor';
 
 const monitor = new AgentMonitor({
   configPath: './agent-monitor.config.json'

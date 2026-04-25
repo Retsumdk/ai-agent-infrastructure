@@ -5,11 +5,11 @@ A production-ready framework for building autonomous multi-agent systems. Powers
 ## Quick Start
 
 ```bash
-bun install @retsumdk/agent-orchestration
+bun install @thebookmaster/agent-orchestration
 ```
 
 ```typescript
-import { AgentOrchestrator, Agent } from '@retsumdk/agent-orchestration';
+import { AgentOrchestrator, Agent } from '@thebookmaster/agent-orchestration';
 
 // Define your agent
 const emailAgent = new Agent({
