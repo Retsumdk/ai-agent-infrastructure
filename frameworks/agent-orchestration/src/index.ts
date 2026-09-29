@@ -184,6 +184,12 @@ export class Hub implements HubInterface {
   
   constructor(private name: string) {}
   
+  registerAgent(agentName: string): void {
+    if (!this.messages.has(agentName)) {
+      this.messages.set(agentName, []);
+    }
+  }
+  
   async broadcast(message: Omit<AgentMessage, 'timestamp'>): Promise<void> {
     const fullMessage: AgentMessage = {
       ...message,

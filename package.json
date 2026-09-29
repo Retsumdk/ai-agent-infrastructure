@@ -39,5 +39,8 @@
   "workspaces": [
     "frameworks/*",
     "tools/*"
-  ]
+  ],
+  "dependencies": {
+    "cron": "4"
+  }
 }
